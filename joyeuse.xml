@@ -9,7 +9,7 @@
 
         <remote name="LineageOS"
                 fetch="https://github.com/LineageOS"
-                revision="refs/heads/lineage-19.0" />
+                revision="refs/heads/lineage-19.1" />
 
         <!-- From AOSP-joyeuse -->
         <project path="device/xiaomi/joyeuse" name="platform_device_xiaomi_joyeuse" remote="joyeuse" revision="SaltyIceCream" />
