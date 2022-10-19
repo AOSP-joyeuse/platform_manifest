@@ -3,14 +3,6 @@
         <remote name="joyeuse"
                 fetch="https://github.com/AOSP-joyeuse" />
 
-        <remote name="hentaiOS" 
-                fetch="https://github.com/hentaiOS"
-                revision="refs/heads/SaltyIceCream" />
-
-        <remote name="LineageOS"
-                fetch="https://github.com/LineageOS"
-                revision="refs/heads/lineage-19.1" />
-
 	<remote name="PixelExperience"
 		fetch="https://github.com/PixelExperience"
 		revision="refs/heads/twelve" />
@@ -23,18 +15,6 @@
         <project path="hardware/qcom/sm8150/display" name="platform_hardware_qcom_display" remote="joyeuse" revision="SaltyIceCream" />
         <project path="hardware/qcom/sm8150/audio" name="platform_hardware_qcom_audio" remote="joyeuse" revision="SaltyIceCream" />
         <project path="hardware/qcom/sm8150/media" name="platform_hardware_qcom_media" remote="joyeuse" revision="SaltyIceCream" />
-
-        <!-- From hentaiOS -->
-        <project path="hardware/qcom-caf/common" name="platform_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="hentaiOS" />
-        <project path="hardware/qcom-caf/bt" name="platform_hardware_qcom-caf_bt" groups="pdk" remote="hentaiOS" />
-        <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom-caf_wlan" groups="pdk" remote="hentaiOS" />
-        <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="vendor" remote="hentaiOS" />
-        <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" groups="vendor" remote="hentaiOS" />
-        <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" groups="vendor" remote="hentaiOS" />
-	<project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="hentaiOS" />
-
-        <!-- Additions from LineageOS -->
-        <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="LineageOS" />
 
 	<!-- Additions from Pixel Experience -->
 	<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PixelExperience" />
