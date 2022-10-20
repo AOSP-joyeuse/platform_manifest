@@ -1,4 +1,6 @@
-## Field of furries. ##
+# ![Banner](assets/manifest.png) #
+
+## SaltyIceCream. ##
 
 ## Requirements ##
 
